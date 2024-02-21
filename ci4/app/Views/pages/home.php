@@ -1,40 +1,10 @@
+<?= $this->extend('layouts/main') ?>
 
-    <link href="css/index-style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+<?= $this->section('styles') ?>
+    <link rel="stylesheet" href="css/home-style.css">
+<?= $this->endSection() ?>
 
-<body>
-    <div id="navbar">
-        <div id="folders">
-            <a class="icons" href="#">
-                <img class="nav orig-image" src="images/folder icons/1 home.png">
-                <img class="nav hover-image" src="images/folder icons/2 home.png">
-            </a>
-            <a class="icons" href="shane.html">
-                <img class="nav orig-image" src="images/folder icons/3 shane.png">
-                <img class="nav hover-image" src="images/folder icons/4 shane.png">
-            </a>
-            <a class="icons" href="about.html">
-                <img class="nav orig-image" src="images/folder icons/5 about.png">
-                <img class="nav hover-image" src="images/folder icons/6 about.png">
-            </a>
-            <a class="icons" href="interests.html">
-                <img class="nav orig-image" src="images/folder icons/7 interests.png">
-                <img class="nav hover-image" src="images/folder icons/8 interests.png">
-            </a>
-            <a class="icons" href="#">
-                <img class="nav orig-image" src="images/folder icons/9 contact.png">
-                <img class="nav hover-image" src="images/folder icons/10 contact.png">
-            </a>
-            <a class="icons" href="#">
-                <img class="nav orig-image" src="images/folder icons/11 misc.png">
-                <img class="nav hover-image" src="images/folder icons/12 misc.png">
-            </a>
-        </div>
-    </div> 
-
-    <!-- CONTENT -->
-
+<?= $this->section('content') ?>
     <div id="home-content">
         <div id="welcome-win">
             <img id="welcome-win" src="images/windows/welcome window.png">
@@ -51,4 +21,8 @@
             <div id="click-to-continue"><p>Click to continue . .</p></div>
         </div>
     </div>
-    <script src="js/main.js"></script>
+<?= $this->endSection() ?>
+
+<?= $this->section('scripts') ?>
+    <script src="js/home.js"></script>
+<?= $this->endSection() ?>

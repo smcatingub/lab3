@@ -1,84 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-@font-face {
-    font-family: dogicapixel;
-    src: url(../resources/fonts/dogica/TTF/dogicapixel.ttf);
-}
-
-@font-face {
-    font-family: league-reg;
-    src: url(../resources/fonts/League_Spartan/LeagueSpartan-Regular.ttf);
-}
-
-@font-face {
-    font-family: league-bold;
-    src: url(../resources/fonts/League_Spartan/LeagueSpartan-Bold.ttf);
-}
-@keyframes fade-in {
-    0% {opacity: 0;}
-    50% {opacity: 0.5;}
-    100% {opacity: 1;}
-}
-
-body {
-    background-image: url("../resources/main\ background.png");
-	background-size: 100%;
-}
-#navbar {
-    background-image: url("../resources/header bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: sticky;
-    width: 100vw;
-    overflow: hidden;
-}
-#folders {
-    max-height: 6vw;
-    display: flex;
-    justify-content: center;
-    padding-left: 24vw;
-    padding-right: 12vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    overflow: hidden;
-}
-.nav {
-    width: 3.5vw;
-    margin: 1vw;
-}
-div {
-    display: block;
-}
-.icons {
-    position: relative;
-    display: inline-block;
-    padding-top: 1vw;
-}
-.orig-image, .hover-image {
-    display: block;
-    transition: opacity 0.3s ease-in-out;
-    height: auto;
-}
-.hover-image {
-    position: absolute;
-    top: 1vw;
-    left: 0;
-    opacity: 0;
-    transform: scale(1);
-}
-.icons:hover .orig-image {
-    opacity: 0;
-    transform: scale(1);
-}
-.icons:hover .hover-image {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
-/* CONTENT */
-
 div#shane-content {
     display: flex;
     justify-content: center;
@@ -127,10 +46,10 @@ div.user {
     bottom: 1vw;
     width: 8.5vw;
     height: auto;
-    content: url(../resources/windows/my\ melody\ phone.gif);
+    content: url(../images/windows/my\ melody\ phone.gif);
 }
 #boo:hover {
-    content: url(../resources/windows/boo.gif);
+    content: url(../images/windows/boo.gif);
 }
 
 /* SOCMED-CONTENTS */
@@ -350,55 +269,4 @@ div#socmed-content10 {
 }
 .at {
     color: #0004ff;
-}
-
-/* FOOTER */
-
-#footer-content {
-    margin-top: -0.2vw;
-    width: 100vw;
-    background-color: #000000;
-    max-width: 100vw;
-    min-height: 4.63vw;
-    overflow: hidden;
-}
-div#pink {
-    max-width: 17vw;
-    max-height: 0.1vw;
-    background-color: #F4B9B8;
-    margin: auto;
-    margin-top: 0.55vw;
-}
-div#contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 0.5vw;
-    padding-top: 0.4vw;
-}
-div#contact-icons a{
-    text-decoration: none;
-    padding: 0.3vw;
-    background-color: #360060;
-    border-radius: 50%;
-}
-div#contact-icons a i{
-    font-size: 1.3vw;
-    color: #c8a6f8;
-}
-div#contact-icons a:hover{
-    background-color: #111;
-    transition: 0.5s;
-}
-div#contact-icons a i:hover{
-    color: #F4B9B8;
-    transition: 0.5s;
-}
-div#footer-copyright {
-    font-family: league-reg;
-    font-size: 0.75vw;
-    display: flex;
-    justify-content: center;
-    padding-top: 0.5vw;
-    color: #c8a6f8;
-    opacity: 0.5;
 }
