@@ -15,7 +15,7 @@
         <?= $this->section('content') ?>
             <div id="ewanhuhu">
                 <a id="contact-back" class="contact-text-buttons" href="./contact">back to contact</a>
-                <a id="contact-view" class="contact-text-buttons" href="./contact_form">post a feedback</a>
+                <a id="contact-view" class="contact-text-buttons" href="guest/new">post a feedback</a>
             </div>
 
             <div id="contact-view-content">

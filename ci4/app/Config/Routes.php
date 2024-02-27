@@ -12,6 +12,8 @@ use App\Controllers\News;
 use App\Controllers\Pages;
 
 $routes->get('guest', [Guest::class, 'index']);
+$routes->get('guest/new', [Guest::class, 'new']);
+$routes->post('guest', [Guest::class, 'create']);
 
 $routes->get('news', [News::class, 'index']);
 $routes->get('news/new', [News::class, 'new']);

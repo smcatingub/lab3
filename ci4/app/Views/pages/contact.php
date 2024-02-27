@@ -26,7 +26,7 @@
                     <div class="contact-divs">
                         <span class="contact-texts">or through a feedback . . </span>
                         <div id="ewanhuhu">
-                            <a id="contact-post" class="contact-text-buttons" href="./contact_form">post</a>
+                            <a id="contact-post" class="contact-text-buttons" href="guest/new">post</a>
                             <a id="contact-view" class="contact-text-buttons" href="./guest">view feedbacks</a><br><br>
                         </div>
                     </div>

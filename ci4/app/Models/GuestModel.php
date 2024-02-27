@@ -8,6 +8,8 @@ class GuestModel extends Model
 {
     protected $table = 'guest';
 
+    protected $allowedFields = ['name', 'email', 'comment'];
+
     public function getGuest()
 {
     return $this->findAll();

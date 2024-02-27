@@ -24,10 +24,37 @@
     justify-content: center;
 }
 
-.error {
+.errors {
+    max-width: 17vw;
     font-family: dogicapixel;
     font-size: 0.5vw;
     color: red;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    line-height: 1.3;
+}
+
+#outer-success-plz {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vw;
+}
+
+#success-container {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+    font-family: dogicapixel;
+    font-size: 1.2vw;
+    color: white;
+}
+
+#success-container img {
+    width: 20vw;
+    height: auto;
+    border-radius: 1vw;
 }
 
 #form-content {
