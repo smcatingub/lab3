@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class GuestModel extends Model
 {
-    protected $table = 'guest';
+    protected $table = 'smcatingub_myguests';
 
     protected $allowedFields = ['name', 'email', 'comment'];
 
