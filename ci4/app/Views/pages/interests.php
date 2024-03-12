@@ -100,7 +100,6 @@
                         <img class="ppl" src="images/polaroids/11.png">
                         <img class="ppl" src="images/polaroids/12.png">
                         <img class="ppl" src="images/polaroids/13.png">
-                        <img class="ppl" src="images/polaroids/14.png">
                         <div>
                                 <p>
                                     &#9825; <strong>some of these,</strong><span class="wahaha"> like chaewon and saerom, are literally the only ones i know from their respective groups. i don't have the motivation to memorize names and faces anymore :(</span><br>

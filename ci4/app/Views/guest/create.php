@@ -41,7 +41,7 @@
 
 <div id="ewanhuhu">
     <a id="contact-back" class="contact-text-buttons" href="../contact">back</a>
-    <a id="contact-view" class="contact-text-buttons" href="./">view feedbacks</a>
+    <a id="contact-view" class="contact-text-buttons" href="../guest">view feedbacks</a>
 </div>
 
 <div id="flex-container">
